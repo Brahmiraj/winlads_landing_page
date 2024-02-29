@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  background: rgba(247, 247, 247, 1);
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.mulish {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.spacing {
+  letter-spacing: 5px;
+}
+.shadowbg {
+  box-shadow: -1px 1px 59px -44px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px 1px 59px -44px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 1px 59px -44px rgba(0,0,0,0.75);
+}
