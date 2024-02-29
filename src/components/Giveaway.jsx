@@ -47,7 +47,7 @@ export default function Giveaway() {
           Cash
         </button>
       </div>
-      <div className="flex justify-between items-center w-full pt-20 max-sm:gap-7 overflow-x-scroll max-sm:py-4 max-2xl:gap-16">
+      <div className="flex justify-between items-center w-full pt-20 max-sm:gap-7 max-sm:overflow-x-scroll max-sm:py-4 max-2xl:gap-16">
         <GiveawayCards img={img1} />
         <GiveawayCards img={img2} />
         <GiveawayCards img={img3} />

@@ -12,7 +12,7 @@ export default function SignUp() {
           7 Nights stay and its valued at $16,000
         </h1>
       </div>
-      <div className="flex justify-between items-center w-full max-sm:gap-7 overflow-x-scroll max-2xl:gap-16">
+      <div className="flex justify-between items-center w-full max-sm:gap-7 max-sm:overflow-x-scroll max-2xl:gap-16">
         <SignupCard img={img1} />
         <SignupCard img={img2} />
         <SignupCard img={img3} />
