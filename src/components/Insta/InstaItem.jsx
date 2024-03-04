@@ -24,8 +24,8 @@ const InstaItem = ({ Postid }) => {
         <Link key={id} to={postData.permalink} target='_blank' className='rounded-xl overflow-hidden aspect-square'>
             {
                 postData.media_type == 'VIDEO' ? <motion.video whileHover={{ scale: 1.1 }}
-                transition={{ type: "spring", damping: 3 }} src={postData.media_url} className='w-full h-full object-cover' controls></motion.video>  :   <motion.img whileHover={{ scale: 1.1 }}
-                transition={{ type: "spring", damping: 3 }} src={postData.media_url} className='w-full h-full object-cover' />
+                src={postData.media_url} className='w-full h-full object-cover' controls></motion.video>  :   <motion.img whileHover={{ scale: 1.1 }}
+                src={postData.media_url} className='w-full h-full object-cover' />
             }
 
         </Link>

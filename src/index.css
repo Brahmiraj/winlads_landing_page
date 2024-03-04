@@ -32,3 +32,11 @@
   );
   backdrop-filter: blur(11.949999809265137px);
 }
+
+.bghovermain .bghover {
+  transition: opacity 0.5s;
+}
+
+.bghovermain:hover .bghover {
+  opacity: 0.5;
+}

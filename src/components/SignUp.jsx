@@ -13,8 +13,8 @@ export default function SignUp() {
     infinite: true,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 1000,
+    speed: 4000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
   };
 

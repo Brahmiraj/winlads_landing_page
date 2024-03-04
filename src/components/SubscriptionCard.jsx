@@ -17,11 +17,9 @@ export default function SubscriptionCard({
   };
 
   return (
-    <motion.div
-      whileHover={{ scale: 1.05 }}
-      transition={{ type: "spring", damping: 3 }}
+    <div
       style={gradientStyle}
-      className="border-[1px] border-gray-500 flex flex-col justify-center items-center p-5 text-white shadow-2xl gap-5 relative rounded-md pt-10 w-64 4xl:w-[400px] max-sm:w-96"
+      className="bghovermain border-[1px] border-gray-500 flex flex-col justify-center items-center p-5 text-white shadow-2xl gap-5 relative rounded-md pt-10 w-64 4xl:w-[400px] max-sm:w-96"
     >
       {popular && (
         <div className="absolute top-0 flex justify-center items-center text-yellow-400 bg-[#5E5E5E] w-full rounded-t-md py-1">
@@ -42,7 +40,7 @@ export default function SubscriptionCard({
         <h1 className="font-semibold text-xs 4xl:text-2xl">per month</h1>
         <button
           style={{ background: color }}
-          className="w-full rounded-sm text-white 4xl:text-2xl 4xl:p-3"
+          className="w-full rounded-sm text-white 4xl:text-2xl 4xl:p-3 hover:bg-opacity-75 transition duration-300 bghover"
         >
           ONE OFF PACKAGES
         </button>
@@ -92,6 +90,6 @@ export default function SubscriptionCard({
       >
         SIGN UP
       </button>
-    </motion.div>
+    </div>
   );
 }

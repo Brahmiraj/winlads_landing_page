@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function CommentCard({img}) {
   return (
-    <motion.div  whileHover={{scale: 1.05 }} transition={{ type: "spring", damping: 3 }} className="rounded-3xl bg-white poppins shadowbg relative flex flex-col justify-center items-center gap-10 px-20 text-center pt-10 max-sm:min-w-[400px]">
+    <div className="rounded-3xl bg-white poppins shadowbg relative flex flex-col justify-center items-center gap-10 px-20 text-center pt-10 max-sm:min-w-[400px] hover:shadow-2xl transition duration-500">
       <img src={quote} alt="quote" className="absolute top-10"/>
       <div className="flex flex-col justify-center items-center relative top-12 gap-5">
 
@@ -25,6 +25,6 @@ export default function CommentCard({img}) {
         </div>
       </div>
       </div>
-    </motion.div>
+    </div>
   );
 }

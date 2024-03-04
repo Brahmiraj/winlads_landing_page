@@ -15,7 +15,7 @@ export default function ContactUs() {
           worked with native craftspeople on the bronze and stone accents found
           throughout the resort, including in all 48 villas.
         </p>
-        <motion.button whileHover={{scale: 1.1 }} transition={{ type: "spring", damping: 3 }} className="bg-blue-500 text-white p-4 rounded-lg 4xl:text-4xl">Contact Us</motion.button>
+        <button className="bg-blue-500 text-white p-4 rounded-lg 4xl:text-4xl hover:bg-blue-500/90 hover:shadow-lg transition duration-500">Contact Us</button>
       </div>
       <div className="2xl:flex-1 4xl:scale-125 max-sm:scale-50"><ContactUsCard/></div>
     </div>

@@ -26,40 +26,32 @@ export default function Header() {
       </div>
       <div className="flex justify-between items-center flex-1 max-sm:justify-end max-2xl:gap-5 max-lg:gap-3 poppins text-2xl 4xl:text-5xl">
         <div className="flex justify-between items-center max-sm:hidden w-4/5 text-white font-medium cursor-pointer z-20">
-          <motion.h1
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", damping: 3 }}
+          <h1
+            className="hover:text-neutral-800 transition duration-500"
           >
             Review
-          </motion.h1>
-          <motion.h1
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", damping: 3 }}
+          </h1>
+          <h1
+            className="hover:text-neutral-800 transition duration-500"
           >
             Tips
-          </motion.h1>
-          <motion.h1
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", damping: 3 }}
+          </h1>
+          <h1
+            className="hover:text-neutral-800 transition duration-500"
           >
             Alert
-          </motion.h1>
-          <motion.h1
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", damping: 3 }}
+          </h1>
+          <h1
+            className="hover:text-neutral-800 transition duration-500"
           >
             Blog
-          </motion.h1>
+          </h1>
         </div>
-        <div className="">
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", damping: 3 }}
-            className="p-2 px-5 rounded-lg bg-white text-blue-500 font-medium max-sm:text-base 4xl:p-5 4xl:px-10"
+          <button
+            className="p-2 px-5 rounded-lg bg-white text-blue-500 font-medium max-sm:text-base 4xl:p-5 4xl:px-10 hover:bg-gray-200 hover:text-blue-700 hover:shadow-lg transition duration-500"
           >
             Login
-          </motion.button>
-        </div>
+          </button>
         <div className="sm:hidden">
           <RxHamburgerMenu className="text-white" onClick={handleclick}/>
         </div>
