@@ -6,7 +6,7 @@ import ScrollCarousel from "scroll-carousel-react";
 export default function ContactUsCard() {
   new ScrollCarousel(".my-carousel");
   return (
-    <div className="flex justify-center items-center poppins relative max-sm:scale-50">
+    <div className="flex justify-center items-center poppins relative">
       <div className="w-[500px]">
         <ScrollCarousel
           autoplay={false}

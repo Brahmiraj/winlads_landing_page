@@ -23,4 +23,12 @@
   -webkit-box-shadow: -1px 1px 59px -44px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 1px 59px -44px rgba(0,0,0,0.75);
 }
-@import 'node_modules/scroll-carousel/dist/scroll.carousel.min.css';
+
+.glass-effect-box-header {
+  background: linear-gradient(
+    91deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.41) 100%
+  );
+  backdrop-filter: blur(11.949999809265137px);
+}

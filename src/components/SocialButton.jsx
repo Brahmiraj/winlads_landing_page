@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function SocialButton() {
   return (
-      <div className="flex flex-col gap-2 fixed right-5 bottom-5 4xl:scale-150 4xl:right-20 4xl:bottom-20 cursor-pointer z-50">
+      <div className="flex flex-col gap-2 max-2xl:absolute 2xl:fixed right-5 bottom-5 4xl:scale-150 4xl:right-20 4xl:bottom-20 cursor-pointer z-50 max-sm:bottom-28">
         <motion.div  whileHover={{scale: 1.1 }} transition={{ type: "spring", damping: 3 }} className="bg-[#4B69B1] p-2 rounded-full">
           <RiFacebookFill className="text-white w-6 h-6" />
         </motion.div>

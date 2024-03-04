@@ -16,7 +16,10 @@ import SocialButton from "../components/SocialButton";
 export default function LandingPage() {
   return (
     <main className="overflow-x-hidden">
+      <div className="max-2xl:hidden ">
+
         <SocialButton/>
+      </div>
       <div>
         <Header />
         <section>
