@@ -23,3 +23,4 @@
   -webkit-box-shadow: -1px 1px 59px -44px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 1px 59px -44px rgba(0,0,0,0.75);
 }
+@import 'node_modules/scroll-carousel/dist/scroll.carousel.min.css';

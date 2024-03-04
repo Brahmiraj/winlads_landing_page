@@ -11,10 +11,12 @@ import Faq from "../components/Faq";
 import Subscription from "../components/Subscription";
 import Register from "../components/Register";
 import Footer from "../components/Footer";
+import SocialButton from "../components/SocialButton";
 
 export default function LandingPage() {
   return (
     <main className="overflow-x-hidden">
+        <SocialButton/>
       <div>
         <Header />
         <section>

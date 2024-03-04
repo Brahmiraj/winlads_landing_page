@@ -3,7 +3,7 @@ import footerLogo from "../assets/footer/footerLogo.png";
 
 export default function Footer() {
   return (
-    <div className="py-10 flex justify-between items-end gap-20 max-w-[2400px] mx-auto px-20 max-2xl:px-10 max-sm:px-5 text-xs Mulish 4xl:pt-60 max-sm:flex-col max-sm:items-start max-sm:gap-10">
+    <div className="py-10 flex justify-between items-end gap-20 max-w-[2400px] mx-auto px-20 max-2xl:px-20 max-sm:px-5 text-xs Mulish 4xl:pt-20 max-sm:flex-col max-sm:items-start max-sm:gap-10">
       <div className="flex justify-between items-end sm:flex-1 max-sm:flex-col max-sm:justify-start max-sm:items-start max-sm:gap-10">
       <img src={footerLogo} alt="footerLogo" className="4xl:w-80"/>
       <div className="4xl:text-2xl">

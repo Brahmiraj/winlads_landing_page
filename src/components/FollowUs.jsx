@@ -10,7 +10,7 @@ import img8 from "../assets/followUs/img8.png";
 
 export default function FollowUs() {
   return (
-    <div className="poppins flex py-20 max-w-[2400px] mx-auto 4xl:pt-80 max-sm:flex-col max-sm:justify-center max-sm:items-center">
+    <div className="poppins flex py-20 max-w-[2400px] mx-auto 4xl:pt-80 max-sm:flex-col max-sm:justify-center max-sm:items-center pl-20">
       <div className="w-4/5 flex flex-col justify-end items-center 4xl:scale-150">
         <h1 className="text-5xl font-semibold max-sm:text-3xl">Follow Us On Instagram</h1>
         <div className="flex flex-col justify-center items-center max-sm:pt-5">
