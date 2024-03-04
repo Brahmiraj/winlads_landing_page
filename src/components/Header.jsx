@@ -18,23 +18,7 @@ export default function Header() {
   return (
     <div className="flex justify-between items-center px-20 pt-5 max-2xl:px-10 max-sm:px-5 max-sm:pt-3 max-w-[2400px] mx-auto">
       <div className="flex-1">
-        <motion.img
-          animate={{
-            y: 20,
-          }}
-          transition={{
-            delay: 0.5,
-            duration: 1,
-            ease: [1, 0.165, 0.82, 0.075],
-            repeat: Infinity,
-            repeatType: "reverse",
-            rotate: {
-              delay: 1,
-              duration: 2,
-              ease: "linear",
-              repeat: Infinity,
-            },
-          }}
+        <img
           src={logo}
           alt="logo"
           className="w-32 max-2xl:w-28 max-md:w-24 4xl:w-80"
