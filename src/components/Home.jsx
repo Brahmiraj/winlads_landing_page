@@ -14,7 +14,7 @@ export default function Home() {
             cursorBlinking
             delaySpeed={1000}
             deleteSpeed={25}
-            loop={0}
+            loop={1}
             typeSpeed={75}
             words={["WIN A TRIP TO BALI!"]}
           />
