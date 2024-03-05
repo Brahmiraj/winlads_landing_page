@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ContactUs() {
   return (
-    <div className="flex justify-center items-center max-w-[2400px] mx-auto max-2xl:flex-col max-2xl:gap-5 px-20 max-2xl:px-10 4xl:py-20">
+    <div className="flex justify-center items-center max-w-[2400px] mx-auto max-2xl:flex-col-reverse max-2xl:gap-5 px-20 max-2xl:px-10 4xl:py-20 max-sm:py-10">
       <div className="text-end poppins 2xl:flex-1 flex flex-col gap-20 justify-center items-end max-2xl:items-center max-2xl:text-center max-2xl:gap-10">
         <h1 className="poppins font-semibold text-5xl 4xl:text-9xl max-sm:text-4xl">Kim Kardashian’s</h1>
         <p className="text-xl text-gray-500 w-10/12 4xl:text-4xl">
