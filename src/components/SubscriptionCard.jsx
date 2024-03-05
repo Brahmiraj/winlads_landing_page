@@ -19,7 +19,7 @@ export default function SubscriptionCard({
   return (
     <div
       style={gradientStyle}
-      className="bghovermain border-[1px] border-gray-500 flex flex-col justify-center items-center p-5 text-white shadow-2xl gap-5 relative rounded-md pt-10 w-64 4xl:w-[400px] max-sm:w-96"
+      className="border-[1px] border-gray-500 flex flex-col justify-center items-center p-5 text-white shadow-2xl gap-5 relative rounded-md pt-10 w-64 4xl:w-[400px] max-sm:w-96"
     >
       {popular && (
         <div className="absolute top-0 flex justify-center items-center text-yellow-400 bg-[#5E5E5E] w-full rounded-t-md py-1">
@@ -86,7 +86,7 @@ export default function SubscriptionCard({
       </div>
       <button
         style={{ background: color }}
-        className="w-full rounded-sm 4xl:text-2xl"
+        className="w-full rounded-sm 4xl:text-2xl bghover"
       >
         SIGN UP
       </button>

@@ -33,10 +33,14 @@
   backdrop-filter: blur(11.949999809265137px);
 }
 
-.bghovermain .bghover {
+.bghover {
   transition: opacity 0.5s;
 }
 
-.bghovermain:hover .bghover {
+.bghover:hover {
   opacity: 0.5;
+}
+
+.bgcolorchange:hover {
+  filter: drop-shadow(10px 5px 5px #557fc3);
 }

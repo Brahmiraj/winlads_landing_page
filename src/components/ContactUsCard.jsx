@@ -1,35 +1,32 @@
 import React from "react";
 import sidecard from "../assets/contactUs/sidecard.png";
 import { motion } from "framer-motion";
-import ScrollCarousel from "scroll-carousel-react";
+import { IoIosArrowBack, IoIosArrowForward  } from "react-icons/io";
+// import ScrollCarousel from "scroll-carousel-react";
+import Carousel from "nuka-carousel"
 
 export default function ContactUsCard() {
-  new ScrollCarousel(".my-carousel");
+  // new ScrollCarousel(".my-carousel");
   return (
-    <div className="flex justify-center items-center poppins relative">
+    <div className="flex justify-center items-center poppins relative max-sm:scale-50">
       <div className="w-[500px]">
-        <ScrollCarousel
-          autoplay={false}
-          autoplaySpeed={10}
-          speed={15}
-          onReady={() => console.log("I am ready")}
-        >
-          <img
-            src={sidecard}
-            alt="sidecard"
-            className="w-[500px] h-[800px] object-none rounded-3xl"
-          />{" "}
-          <img
-            src={sidecard}
-            alt="sidecard"
-            className="w-[500px] h-[800px] object-none rounded-3xl"
-          />{" "}
+      <Carousel autoplay={true} autoplayInterval={2000}>
           <img
             src={sidecard}
             alt="sidecard"
             className="w-[500px] h-[800px] object-none rounded-3xl"
           />
-        </ScrollCarousel>
+          <img
+            src={sidecard}
+            alt="sidecard"
+            className="w-[500px] h-[800px] object-none rounded-3xl"
+          />
+          <img
+            src={sidecard}
+            alt="sidecard"
+            className="w-[500px] h-[800px] object-none rounded-3xl"
+          />
+        </Carousel>
       </div>
 
       <div className="absolute">

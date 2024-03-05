@@ -25,26 +25,26 @@ export default function Header() {
         />
       </div>
       <div className="flex justify-between items-center flex-1 max-sm:justify-end max-2xl:gap-5 max-lg:gap-3 poppins text-2xl 4xl:text-5xl">
-        <div className="flex justify-between items-center max-sm:hidden w-4/5 text-white font-medium cursor-pointer z-20">
+        <div className="flex justify-between items-center max-sm:hidden w-4/5 text-white font-medium cursor-pointer z-20 text-xl 4xl:text-3xl max-2xl:text-sm">
           <h1
             className="hover:text-neutral-800 transition duration-500"
           >
-            Review
+            Become a Member
           </h1>
           <h1
             className="hover:text-neutral-800 transition duration-500"
           >
-            Tips
+            Be a Partner
           </h1>
           <h1
             className="hover:text-neutral-800 transition duration-500"
           >
-            Alert
+            Our Partner
           </h1>
           <h1
             className="hover:text-neutral-800 transition duration-500"
           >
-            Blog
+            Shop
           </h1>
         </div>
           <button
@@ -62,10 +62,10 @@ export default function Header() {
             <IoClose className="w-7 h-7 text-white" />
           </div>
           <div className="flex flex-col justify-center items-center gap-3 text-lg font-semibold text-white">
-            <h1 className="NavLink">Review</h1>
-            <h1 className="NavLink">Tips</h1>
-            <h1 className="NavLink">Alert</h1>
-            <h1 className="NavLink">Blog</h1>
+            <h1 className="NavLink">Become a Member</h1>
+            <h1 className="NavLink">Be a Partner</h1>
+            <h1 className="NavLink">Our Partner</h1>
+            <h1 className="NavLink">Shop</h1>
           </div>
         </div>
       )}
