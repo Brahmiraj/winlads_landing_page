@@ -6,28 +6,28 @@ const faqData = [
   {
     id: 1,
     question: "Is this promotion valid Australia wide?",
-    answer: "Yes, the promotion is valid Australia wide.",
+    answer: "The promotion is valid in all states of Australia excluding South Australia.",
   },
   {
     id: 2,
     question: "Is this an ongoing payment?",
-    answer: "No, it is not an ongoing payment. It's a one-time payment.",
+    answer: "Yes, once you make a purchase your name goes into the draw x the amount of entries you have. You'll receive an email stating the total entries that you have and you can see that total when you login to your WinLads dashboard.",
   },
   {
     id: 3,
     question: "Do I receive Entries?",
-    answer: "Yes, you will receive entries for participating.",
+    answer: "The referral program rewards existing members for inviting new individuals to join our platform. When someone signs up using your unique referral link or code, you earn commissions based on their subscription level.By participating, you can earn commissions on the subscription fees of individuals you refer. Additionally, you contribute to expanding our community and potentially increasing your passive income.",
   },
   {
     id: 4,
     question: "Is the cash tax-free?",
-    answer: "Yes, the cash is tax-free.",
+    answer: "If you take the cash it is completely tax free! How good is that!",
   },
   {
     id: 5,
     question: "Do I need to be watching the live or answer my phone to win?",
     answer:
-      "No, you don't need to be watching the live or answer your phone to win.",
+      "No, we will contact the winner ASAP through the details they ve provided during registration which will be presented to us upon entering the winning combination into our system.If we can not contact the winner on the live feed, we will wait and try again later.As per our permits we can NOT redraw unless the prize remains unclaimed for 3 months.",
   },
 ];
 

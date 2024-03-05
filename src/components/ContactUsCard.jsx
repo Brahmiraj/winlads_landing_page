@@ -9,9 +9,9 @@ export default function ContactUsCard() {
     <div className="flex justify-center items-center poppins relative max-sm:scale-50">
       <div className="w-[500px]">
         <ScrollCarousel
-          autoplay={false}
-          autoplaySpeed={10}
-          speed={15}
+          autoplay={true}
+          autoplaySpeed={1}
+          speed={5}
           onReady={() => console.log("I am ready")}
         >
           <img
